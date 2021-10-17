@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'primereact/resources/themes/bootstrap4-light-blue/theme.css';
 
+import 'primeflex/primeflex.css';
 ReactDOM.render(
   <React.StrictMode>
     <App />
